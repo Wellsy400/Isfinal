@@ -2369,7 +2369,6 @@ progress {
   -webkit-margin-end: 1rem;
           margin-inline-end: 1rem;
 }
-
 textarea.form-control {
   min-height: calc(1.5em + 0.75rem + 2px);
 }
@@ -2479,7 +2478,8 @@ textarea.form-control-lg {
           print-color-adjust: exact;
           accent-color: exact;
 }
-.form-check-input[type=radio] {
+.form-check-input[type=radio] 
+{
   border-radius: 50%;
 }
 .form-check-input:active {
